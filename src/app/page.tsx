@@ -132,20 +132,20 @@ export default function Home() {
           </div>
 
         </div>
-        <div className="py-8 bg-gray-100" >
+        <div className="py-8" >
           {/* Other shoes with listing */}
           <p className="text-md font-bold text-gray-400/40 uppercase mb-4" >Popular</p>
 
           <div className="w-full flex flex-wrap bg-gray-100" >
 
             {SHOES_LISTINGS.map((shoe) =>
-              <div className="w-1/4 flex flex-col items-center p-2 shadow-slate-200 shadow-sm" >
+              <div className="w-1/4 flex flex-col items-center p-2 shadow-slate-200 shadow-sm hover:bg-gray-200/50 cursor-pointer" >
                 <div>
                   <Image
                     height={250}
                     width={250}
-                    src={shoe?.imageLink}
-                    alt={shoe?.name}
+                    src={shoe?.imageLink || ''}
+                    alt={shoe?.name || ''}
                   />
                 </div>
                 <div className="flex-1 flex flex-col items-center" >

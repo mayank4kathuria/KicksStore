@@ -59,7 +59,7 @@ export const SHOES_DATA = [
         "colorOptions": "3 Colours",
         "price": "MRP : ₹ 8 995.00"
     },
-{
+    {
         "name": "Nike Air Max 95 By You",
         "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d8cd53d7-7e2f-45c2-b181-d2dd5eaac850/custom-nike-air-max-95-by-you.png",
         "colorOptions": "1 Colour",
@@ -195,32 +195,44 @@ export const SHOES_DATA = [
 
 export const NEW_ARRIVALS = [
     {
-        "name": "Nike Dunk Low",
-        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0f8b0d10-a51f-4c40-b5de-953012998b19/dunk-low-shoes-W544sp.png",
+        "name": "Nike Air Max Excee",
+        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7b192c37-dd59-4077-9e36-1836fa9a2172/air-max-excee-shoes-B6SLM0.png",
+        "colorOptions": "1 Colour",
+        "price": "MRP : ₹ 8 695.00"
+    },
+    {
+        "name": "Nike Air Max 90",
+        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ef5b4802-a2b5-4362-980f-d68478d7ec3d/air-max-90-shoes-98F148.png",
+        "colorOptions": "1 Colour",
+        "price": "MRP : ₹ 10 795.00"
+    },
+    {
+        "name": "Nike Air Max 90",
+        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/38e0a196-20d2-4820-9f3f-e44c98318039/air-max-90-shoes-QfTnV3.png",
         "colorOptions": "1 Colour",
         "price": "MRP : ₹ 11 895.00"
     },
     {
-        "name": "Nike Air Force 1 '07",
-        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/21d38052-598b-44f6-a857-123c9f72b015/air-force-1-07-shoes-WrLlWX.png",
-        "colorOptions": "2 Colours",
-        "price": "MRP : ₹ 7 495.00"
+        "name": "Nike Air Max 90",
+        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/yo8q4g51so6rylfl6w14/air-max-90-shoes-mnCmVT.png",
+        "colorOptions": "1 Colour",
+        "price": "MRP : ₹ 9 995.00"
     },
     {
-        "name": "Nike Court Vision Low Next Nature",
-        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/72eb4b58-d918-40e7-9d51-6dcb9a604a9d/court-vision-low-next-nature-shoes-h7p8ck.png",
+        "name": "Nike Air Max 90",
+        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/80b8277d-ede8-4885-9c37-2fe1cdf341aa/air-max-90-shoes-K0mczj.png",
         "colorOptions": "1 Colour",
-        "price": "MRP : ₹ 7 495.00"
-    },
-    {
-        "name": "Nike Cortez TXT",
-        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7d93a817-f6c4-4df1-b596-f0498c3d24e8/cortez-txt-shoes-HhM7W9.png",
-        "colorOptions": "1 Colour",
-        "price": "MRP : ₹ 8 495.00"
+        "price": "MRP : ₹ 10 995.00"
     }
 ];
 
 export const SHOES_LISTINGS = [
+    {
+        "name": "Nike Air Max 90",
+        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/w2ldynwtyuspv6r5rffj/air-max-90-shoes-mnCmVT.png",
+        "colorOptions": "1 Colour",
+        "price": "MRP : ₹ 9 995.00"
+    }, ,
     {
         "name": "Nike Blazer Phantom Low",
         "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fb01f7aa-2f54-42cf-bf1c-e27badcd9859/blazer-phantom-low-shoes-WQbwhN.png",
@@ -234,16 +246,16 @@ export const SHOES_LISTINGS = [
         "price": "MRP : ₹ 7 095.00"
     },
     {
+        "name": "Nike Dunk Low",
+        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0f8b0d10-a51f-4c40-b5de-953012998b19/dunk-low-shoes-W544sp.png",
+        "colorOptions": "1 Colour",
+        "price": "MRP : ₹ 11 895.00"
+    },
+    {
         "name": "Nike Dunk Low Retro Premium",
         "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/fcba15c3-280c-4ee2-8557-6af9cf93db95/dunk-low-retro-shoes-7h7hLD.png",
         "colorOptions": "1 Colour",
         "price": "MRP : ₹ 10 795.00"
-    },
-    {
-        "name": "Jordan Jumpman",
-        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ac0e312f-e1c6-42a9-96a7-8ba11c0cd67a/jordan-jumpman-slides-2C5ffD.png",
-        "colorOptions": "4 Colours",
-        "price": "MRP : ₹ 3 195.00"
     },
     {
         "name": "Nike Air Max Excee",
@@ -348,6 +360,24 @@ export const SHOES_LISTINGS = [
         "price": "MRP : ₹ 12 795.00"
     },
     {
+        "name": "Nike Air Force 1 '07",
+        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/21d38052-598b-44f6-a857-123c9f72b015/air-force-1-07-shoes-WrLlWX.png",
+        "colorOptions": "2 Colours",
+        "price": "MRP : ₹ 7 495.00"
+    },
+    {
+        "name": "Nike Court Vision Low Next Nature",
+        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/72eb4b58-d918-40e7-9d51-6dcb9a604a9d/court-vision-low-next-nature-shoes-h7p8ck.png",
+        "colorOptions": "1 Colour",
+        "price": "MRP : ₹ 7 495.00"
+    },
+    {
+        "name": "Nike Cortez TXT",
+        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7d93a817-f6c4-4df1-b596-f0498c3d24e8/cortez-txt-shoes-HhM7W9.png",
+        "colorOptions": "1 Colour",
+        "price": "MRP : ₹ 8 495.00"
+    },
+    {
         "name": "Nike Air Max 90 LV8",
         "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c279f13e-cf3e-4738-8aa3-5b6576b5f51a/air-max-90-lv8-shoes-5KhTdP.png",
         "colorOptions": "1 Colour",
@@ -370,12 +400,6 @@ export const SHOES_LISTINGS = [
         "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/38e0a196-20d2-4820-9f3f-e44c98318039/air-max-90-shoes-QfTnV3.png",
         "colorOptions": "1 Colour",
         "price": "MRP : ₹ 11 895.00"
-    },
-    {
-        "name": "Nike Air Max 90",
-        "imageLink": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/w2ldynwtyuspv6r5rffj/air-max-90-shoes-mnCmVT.png",
-        "colorOptions": "1 Colour",
-        "price": "MRP : ₹ 9 995.00"
     },
     {
         "name": "Nike Air Max 90",
