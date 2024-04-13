@@ -10,9 +10,10 @@ export default function Home() {
       {/* Header */}
       <div className="w-full p-8 bg-black flex items-center justify-between">
         <div className="flex items-center" >
-          <div className="mr-8" >
+          <div className="flex flex-col items-center uppercase mr-8 py-2 px-6 border-4 font-extrabold tracking-wide	" >
             {/* Logo */}
-            <span>LOGO</span>
+            <p>The Kicks</p>
+            <p>Store</p>
           </div>
           <div className="text-gray-100 uppercase font-medium " >
             {/* Menu Items */}
@@ -165,6 +166,9 @@ export default function Home() {
       </div>
 
       {/* Footer */}
+      <div className="w-full p-4 bg-black flex justify-center">
+        <p>Made By Mayank Kathuria</p>
+      </div>
     </main>
   );
 }
