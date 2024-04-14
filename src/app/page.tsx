@@ -42,7 +42,7 @@ export default function Home() {
 
         <div className="w-full mt-6">
           {/* other collections */}
-          <p className="text-sm font-bold text-gray-400/40 uppercase mb-4" >New Arrivals</p>
+          <p className="text-sm font-bold text-gray-400 uppercase mb-4" >New Arrivals</p>
 
           <div className="w-full flex items-center overflow-x-scroll" >
 
@@ -136,7 +136,7 @@ export default function Home() {
 
         <div className="w-full mt-6">
           {/* other collections */}
-          <p className="text-sm font-bold text-gray-400/40 uppercase mb-4" >Popular</p>
+          <p className="text-sm font-bold text-gray-400 uppercase mb-4" >Popular</p>
 
           <div className="w-full flex items-center overflow-x-scroll" >
 
@@ -278,7 +278,7 @@ export default function Home() {
 
           <div className="flex-1 flex flex-col">
             {/* other collections */}
-            <p className="text-md font-bold text-gray-400/40 uppercase mb-4" >New Arrivals</p>
+            <p className="text-md font-bold text-gray-400 uppercase mb-4" >New Arrivals</p>
 
             <div className="flex p-4 shadow-xl" >
               <div className="flex-1" >
@@ -357,12 +357,12 @@ export default function Home() {
         </div>
         <div className="py-8" >
           {/* Other shoes with listing */}
-          <p className="text-md font-bold text-gray-400/40 uppercase mb-4" >Popular</p>
+          <p className="text-md font-bold text-gray-400 uppercase mb-4" >Popular</p>
 
           <div className="w-full flex flex-wrap bg-gray-100" >
 
             {SHOES_LISTINGS.map((shoe) =>
-              <div className="w-1/4 flex flex-col items-center p-2 shadow-slate-200 shadow-sm hover:bg-gray-200/50 cursor-pointer" >
+              <div className="w-1/4 flex flex-col items-center p-2 shadow-slate-200 shadow-sm hover:shadow-lg cursor-pointer" >
                 <div>
                   <Image
                     height={250}
