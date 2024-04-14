@@ -15,19 +15,74 @@ export default function Home() {
             <p>The Kicks</p>
             <p>Store</p>
           </div>
-          <div className="text-gray-100 uppercase font-medium " >
+          <div className="flex items-center text-gray-100 uppercase font-medium " >
             {/* Menu Items */}
-            <Link href='/' className='mx-2 p-4 text-sm' >Collections</Link>
-            <Link href='/' className='mx-2 p-4 text-sm' >Mens</Link>
-            <Link href='/' className='mx-2 p-4 text-sm' >Womens</Link>
-            <Link href='/' className='mx-2 p-4 text-sm' >Kids</Link>
-            <Link href='/' className='mx-2 p-4 text-sm' >News</Link>
+            <div className='group/menuList relative mx-2 p-4 text-sm hover:z-10' >
+              <span className="cursor-pointer" >Collection</span>
+              <div className="w-80 mt-4 absolute invisible group-hover/menuList:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
+                <ul className="capitalize" >
+                  <li className="hover:bg-red-200 mt-2 p-4 cursor-pointer" >New Arrivals</li>
+                  <li className="hover:bg-red-200 p-4 cursor-pointer" >Popular</li>
+                  <li className="hover:bg-red-200 p-4 cursor-pointer" >Season end discounts</li>
+                  <li className="hover:bg-red-200 mb-2 p-4 cursor-pointer" >Trendy Fashion</li>
+                </ul>
+              </div>
+            </div>
+            <div className='group/menuList relative mx-2 p-4 text-sm hover:z-10' >
+              <span className="cursor-pointer" >Mens</span>
+              <div className="w-80 mt-4 absolute invisible group-hover/menuList:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
+                <ul className="capitalize" >
+                  <li className="hover:bg-red-200 mt-2 p-4 cursor-pointer" >Sports Shoes</li>
+                  <li className="hover:bg-red-200 p-4 cursor-pointer" >Running Shoes</li>
+                  <li className="hover:bg-red-200 p-4 cursor-pointer" >Everyday Shoes</li>
+                  <li className="hover:bg-red-200 mb-2 p-4 cursor-pointer" >casual Shoes</li>
+                </ul>
+              </div>
+            </div>
+            <div className='group/menuList relative mx-2 p-4 text-sm hover:z-10' >
+              <span className="cursor-pointer" >Womens</span>
+              <div className="w-80 mt-4 absolute invisible group-hover/menuList:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
+                <ul className="capitalize" >
+                  <li className="hover:bg-red-200 mt-2 p-4 cursor-pointer" >Sports Shoes</li>
+                  <li className="hover:bg-red-200 p-4 cursor-pointer" >Running Shoes</li>
+                  <li className="hover:bg-red-200 p-4 cursor-pointer" >Everyday Shoes</li>
+                  <li className="hover:bg-red-200 mb-2 p-4 cursor-pointer" >casual Shoes</li>
+                </ul>
+              </div>
+            </div>
+            <div className='group/menuList relative mx-2 p-4 text-sm hover:z-10' >
+              <span className="cursor-pointer" >Kids</span>
+              <div className="w-80 mt-4 absolute invisible group-hover/menuList:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
+                <ul className="capitalize" >
+                  <li className="hover:bg-red-200 mt-2 p-4 cursor-pointer" >Sports Shoes</li>
+                  <li className="hover:bg-red-200 p-4 cursor-pointer" >Running Shoes</li>
+                  <li className="hover:bg-red-200 p-4 cursor-pointer" >Everyday Shoes</li>
+                  <li className="hover:bg-red-200 mb-2 p-4 cursor-pointer" >casual Shoes</li>
+                </ul>
+              </div>
+            </div>
+            <div className='group/menuList relative mx-2 p-4 text-sm hover:z-10' >
+              <span className="cursor-pointer" >News</span>
+              <div className="w-80 mt-4 absolute invisible group-hover/menuList:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
+                <ul className="capitalize" >
+                  <li className="hover:bg-red-200 mt-2 p-4 cursor-pointer" >Latest News</li>
+                  <li className="hover:bg-red-200 mb-2 p-4 cursor-pointer" >Coverage in Press</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="text-gray-300 uppercase font-light" >
+        <div className="flex items-center text-gray-300 uppercase font-light" >
           {/* Cart & Accounts */}
-          <span className="text-sm font-white mx-2 p-4" >Cart</span>
-          <span className="text-sm font-white mx-2 p-4 " >My Account</span>
+          <div className='group relative mx-2 p-4 text-sm hover:z-10' >
+            <span className="cursor-pointer text-sm font-white mx-2 p-4" >Cart</span>
+            <div className="w-60 min-h-80 mt-4 absolute invisible flex items-center justify-center group-hover:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
+              <p className="font-medium" >No Item Added to cart</p>
+            </div>
+          </div>
+          <div className='group relative mx-2 p-4 text-sm hover:z-10' >
+            <span className="cursor-pointer text-sm font-white mx-2 p-4" >My Account</span>
+          </div>
         </div>
       </div>
 
