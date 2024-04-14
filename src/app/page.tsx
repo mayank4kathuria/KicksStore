@@ -175,7 +175,7 @@ export default function Home() {
 
       {/* Dweb */}
       {/* Header */}
-      <div className="hidden lg:block w-full p-8 bg-black flex items-center justify-between">
+      <div className="hidden lg:flex w-full p-8 bg-black flex items-center justify-between">
         <div className="flex items-center" >
           <div className="flex flex-col items-center uppercase mr-8 py-2 px-6 border-4 font-extrabold tracking-wide	" >
             {/* Logo */}
