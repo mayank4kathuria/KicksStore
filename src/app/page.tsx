@@ -6,9 +6,176 @@ import { NEW_ARRIVALS, SHOES_LISTINGS } from '@/Constants/shoesData';
 export default function Home() {
 
   return (
-    <main className="flex bg-gray-100 flex-col">
+    <main className="flex bg-gray-200 flex-col">
+      {/* Mweb */}
       {/* Header */}
-      <div className="w-full p-8 bg-black flex items-center justify-between">
+      <div className="bg-black block lg:hidden flex items-center" >
+        <div className="py-4 px-6" >
+          <div className="flex flex-col items-center uppercase py-1 px-4 border-2 text-xs font-extrabold tracking-wide" >
+            {/* Logo */}
+            <p>The Kicks</p>
+            <p>Store</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Content */}
+      <div className="block lg:hidden p-6" >
+        <div className="bg-white flex flex-col relative p-6" >
+          {/* Main Shoe */}
+          <div className="text-black absolute " >
+            <p className="text-4xl sm:text-6xl font-bold pt-20">
+              {NEW_ARRIVALS[0]?.name}
+            </p>
+            <p className="text-gray-500 text-lg font-bold" >{NEW_ARRIVALS[0]?.colorOptions}</p>
+          </div>
+          <div className="h-full w-full" >
+            <Image
+              height={400}
+              width={600}
+              // fill
+              src={NEW_ARRIVALS[0]?.imageLink}
+              alt={NEW_ARRIVALS[0]?.name}
+            />
+          </div>
+        </div>
+
+        <div className="w-full mt-6">
+          {/* other collections */}
+          <p className="text-sm font-bold text-gray-400/40 uppercase mb-4" >New Arrivals</p>
+
+          <div className="w-full flex items-center overflow-x-scroll" >
+
+            <div className="min-w-80 flex items-center p-6 mr-10 bg-gray-100 shadow-lg" >
+              <div className="flex-1" >
+                <p className="text-black text-lg font-bold">
+                  {NEW_ARRIVALS[1]?.name}
+                </p>
+                <p className="flex flex-col mt-4">
+                  <span className="text-xs text-gray-400">From</span>
+                  <span className="text-sm font-medium text-gray-400">
+                    {NEW_ARRIVALS[1]?.price}
+                  </span>
+                </p>
+              </div>
+              <div className="flex-1 overflow-clip" >
+                <div className="h-20 flex-1 relative left-6" >
+                  <Image
+                    // height={100}
+                    // width={200}
+                    fill
+                    src={NEW_ARRIVALS[1]?.imageLink}
+                    alt={NEW_ARRIVALS[1]?.name}
+                    style={{
+                      objectFit: 'cover', // cover, contain, none
+                    }}
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="min-w-80 flex items-center p-6 mr-10 bg-gray-100 shadow-lg" >
+              <div className="flex-1" >
+                <p className="text-black text-lg font-bold">
+                  {NEW_ARRIVALS[2]?.name}
+                </p>
+                <p className="flex flex-col mt-4">
+                  <span className="text-xs text-gray-400">From</span>
+                  <span className="text-sm font-medium text-gray-400">
+                    {NEW_ARRIVALS[2]?.price}
+                  </span>
+                </p>
+              </div>
+              <div className="flex-1 overflow-clip" >
+                <div className="h-20 flex-1 relative left-6" >
+                  <Image
+                    // height={100}
+                    // width={200}
+                    fill
+                    src={NEW_ARRIVALS[2]?.imageLink}
+                    alt={NEW_ARRIVALS[2]?.name}
+                    style={{
+                      objectFit: 'cover', // cover, contain, none
+                    }}
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="min-w-80 flex items-center p-6 mr-10 bg-gray-100 shadow-lg" >
+              <div className="flex-1" >
+                <p className="text-black text-lg font-bold">
+                  {NEW_ARRIVALS[3]?.name}
+                </p>
+                <p className="flex flex-col mt-4">
+                  <span className="text-xs text-gray-400">From</span>
+                  <span className="text-sm font-medium text-gray-400">
+                    {NEW_ARRIVALS[1]?.price}
+                  </span>
+                </p>
+              </div>
+              <div className="flex-1 overflow-clip" >
+                <div className="h-20 flex-1 relative left-6" >
+                  <Image
+                    // height={100}
+                    // width={200}
+                    fill
+                    src={NEW_ARRIVALS[3]?.imageLink}
+                    alt={NEW_ARRIVALS[3]?.name}
+                    style={{
+                      objectFit: 'cover', // cover, contain, none
+                    }}
+                  />
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div className="w-full mt-6">
+          {/* other collections */}
+          <p className="text-sm font-bold text-gray-400/40 uppercase mb-4" >Popular</p>
+
+          <div className="w-full flex items-center overflow-x-scroll" >
+
+            {SHOES_LISTINGS.map((shoe) => <div className="min-w-80 min-h-44 flex items-center p-6 mr-10 bg-gray-100 shadow-lg" >
+              <div className="flex-1" >
+                <p className="text-black text-lg font-bold">
+                  {shoe?.name}
+                </p>
+                <p className="flex flex-col mt-4">
+                  <span className="text-sm font-medium text-gray-400">
+                    {shoe?.price}
+                  </span>
+                </p>
+              </div>
+              <div className="flex-1 overflow-clip" >
+                <div className="h-20 flex-1 relative left-6" >
+                  <Image
+                    // height={100}
+                    // width={200}
+                    fill
+                    src={shoe?.imageLink || ''}
+                    alt={shoe?.name || ''}
+                    style={{
+                      objectFit: 'cover', // cover, contain, none
+                    }}
+                  />
+                </div>
+              </div>
+            </div>)}
+
+          </div>
+
+        </div>
+
+      </div>
+
+      {/* Dweb */}
+      {/* Header */}
+      <div className="hidden lg:block w-full p-8 bg-black flex items-center justify-between">
         <div className="flex items-center" >
           <div className="flex flex-col items-center uppercase mr-8 py-2 px-6 border-4 font-extrabold tracking-wide	" >
             {/* Logo */}
@@ -87,7 +254,7 @@ export default function Home() {
       </div>
 
       {/* Content */}
-      <div className="p-8" >
+      <div className="hidden lg:block p-8" >
         <div className=" h-4/5 flex overflow-clip" >
 
           {/* Landing Section / Hero Section */}
