@@ -255,7 +255,7 @@ export default function Home() {
 
       {/* Content */}
       <div className="hidden lg:block p-8" >
-        <div className=" h-4/5 flex overflow-clip" >
+        <div className=" h-4/5 flex overflow-clip bg-white p-4" >
 
           {/* Landing Section / Hero Section */}
           <div className="flex-[2_2_0] flex flex-col relative p-6" >
@@ -276,11 +276,11 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex-1 flex flex-col ">
+          <div className="flex-1 flex flex-col">
             {/* other collections */}
             <p className="text-md font-bold text-gray-400/40 uppercase mb-4" >New Arrivals</p>
 
-            <div className="flex py-4" >
+            <div className="flex p-4 shadow-xl" >
               <div className="flex-1" >
                 <p className="text-black text-xl font-bold">
                   {NEW_ARRIVALS[1]?.name}
@@ -304,7 +304,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex p-4" >
+            <div className="flex p-4 mt-4 shadow-xl" >
               <div className="flex-1" >
                 <p className="text-black text-xl font-bold">
                   {NEW_ARRIVALS[2]?.name}
@@ -328,7 +328,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex p-4" >
+            <div className="flex p-4 mt-4 shadow-xl" >
               <div className="flex-1" >
                 <p className="text-black text-xl font-bold">
                   {NEW_ARRIVALS[3]?.name}
