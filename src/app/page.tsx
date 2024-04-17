@@ -6,7 +6,7 @@ import { NEW_ARRIVALS, SHOES_LISTINGS } from '@/Constants/shoesData';
 export default function Home() {
 
   return (
-    <main className="flex bg-gray-200 flex-col">
+    <main className=" min-h-screen flex bg-gray-200 flex-col justify-between">
       {/* Mweb */}
       {/* Header */}
       <div className="bg-black block lg:hidden flex items-center" >
@@ -20,7 +20,7 @@ export default function Home() {
       </div>
 
       {/* Content */}
-      <div className="block lg:hidden p-6" >
+      <div className="flex flex-col lg:hidden p-6" >
         <div className="bg-neutral-100 flex flex-col items-center relative p-6" >
           {/* Main Shoe */}
           <div className="text-black absolute " >
@@ -44,7 +44,7 @@ export default function Home() {
           {/* other collections */}
           <p className="text-sm font-bold text-gray-400 uppercase mb-4" >New Arrivals</p>
 
-          <div className="w-full flex items-center overflow-x-scroll" >
+          <div className="w-full flex items-center overflow-x-scroll no-scrollbar" >
 
             <div className="min-w-80 flex items-center p-6 mr-10 bg-gray-100 shadow-lg" >
               <div className="flex-1" >
@@ -138,7 +138,7 @@ export default function Home() {
           {/* other collections */}
           <p className="text-sm font-bold text-gray-400 uppercase mb-4" >Popular</p>
 
-          <div className="w-full flex items-center overflow-x-scroll" >
+          <div className="w-full flex items-center overflow-x-scroll no-scrollbar" >
 
             {SHOES_LISTINGS.map((shoe) => <div className="min-w-80 min-h-44 flex items-center p-6 mr-10 bg-gray-100 shadow-lg" >
               <div className="flex-1" >
@@ -393,7 +393,7 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <div className="w-full p-4 bg-black flex justify-center">
+      <div className="w-full p-4 bg-black flex justify-center items-center`">
         <p>Made By Mayank Kathuria</p>
       </div>
     </main>
