@@ -140,7 +140,7 @@ export default function Home() {
 
           <div className="w-full flex items-center overflow-x-scroll no-scrollbar" >
 
-            {SHOES_LISTINGS.map((shoe) => <div className="min-w-80 min-h-44 flex items-center p-6 mr-10 bg-gray-100 shadow-lg" >
+            {SHOES_LISTINGS.map((shoe, index) => <div key={`${index}-${shoe?.name}`} className="min-w-80 min-h-44 flex items-center p-6 mr-10 bg-gray-100 shadow-lg" >
               <div className="flex-1" >
                 <p className="text-black text-lg font-bold">
                   {shoe?.name}
@@ -365,8 +365,8 @@ export default function Home() {
 
           <div className="w-full flex flex-wrap bg-gray-100" >
 
-            {SHOES_LISTINGS.map((shoe) =>
-              <div className="w-1/4 flex flex-col items-center p-2 shadow-slate-200 shadow-sm hover:shadow-lg cursor-pointer" >
+            {SHOES_LISTINGS.map((shoe, index) =>
+              <div key={`${index}-${shoe?.name}`} className="w-1/4 flex flex-col items-center p-2 shadow-slate-200 shadow-sm hover:shadow-lg cursor-pointer" >
                 <div>
                   <Image
                     height={250}
