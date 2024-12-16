@@ -1,6 +1,7 @@
-## The Kicks STore
+## The Kicks Store
 
-An E-commerce Store for Sneakers, Shoes and more.
+## Description
+A stylish and user-friendly online shoe store build using the powerful trio of Next.js, React.js, and Tailwind CSS. This platform allowing customers to browse a wide range of trendy footwear for both mens and womens , read detailed product descriptions, and make secure purchases. On technological front website has quick loading times, lazy loading images and a SEO score with Google Lighthouse greater than 95.
 
 ## ScreenShots
 
@@ -18,9 +19,6 @@ An E-commerce Store for Sneakers, Shoes and more.
 
 5) Categories
 <img width="1079" alt="product-listing-2 1" src="https://github.com/mayank4kathuria/KicksStore/assets/16969558/84359367-eac1-45a8-9a19-ae6f680c1750">
-
-## Description
-The project is an Ecommerce store mainly focusing on Shoes. With ability to show latest collections, navigate to various categories for men / woman / kids section and see what's added in the shopping cart. With simple and functional User Interface, the ecommerce website is optimised for SEO with google lighthouse scores greater than 95. Technology Stack involves NextJs, Tailwind for Frontend.
 
 ## How to Deploy it
 First, run the development server:
