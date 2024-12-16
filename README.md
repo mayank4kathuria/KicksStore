@@ -14,13 +14,12 @@ A stylish and user-friendly online shoe store build using the powerful trio of N
 <img width="1926" alt="product-listing-2" src="https://github.com/user-attachments/assets/897d2ef8-bfe3-4d8a-8e6b-10bb24facca0" />
 
 
-
-4) Multi Device support
+3) Multi Device support
 ![flat-devices-mockup(1)](https://github.com/user-attachments/assets/1698531c-1513-4ff9-b90c-837726d98346)
 
 
 
-5) Tablet View
+4) Tablet View
 ![smartmockups_m4rdcsx9](https://github.com/user-attachments/assets/af5a08ae-61e9-4d43-95b8-d38aef163b66)
 
 
