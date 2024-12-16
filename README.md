@@ -6,19 +6,24 @@ A stylish and user-friendly online shoe store build using the powerful trio of N
 ## ScreenShots
 
 1) Landing Page
-<img width="1079" alt="landing-page-2" src="https://github.com/mayank4kathuria/KicksStore/assets/16969558/308d8f97-a4b2-4f03-9453-82a4fb4ec0b5">
+<img width="1898" alt="landing-page" src="https://github.com/user-attachments/assets/f2e3a296-8119-4721-b9d0-26bed1550554" />
+
+
 
 2) Product Listing
-<img width="1079" alt="product-listing-2" src="https://github.com/mayank4kathuria/KicksStore/assets/16969558/88cd48fa-3814-42d2-8822-56f2407c0970">
+<img width="1926" alt="product-listing-2" src="https://github.com/user-attachments/assets/897d2ef8-bfe3-4d8a-8e6b-10bb24facca0" />
 
-3) Products Listing 2
-<img width="1079" alt="product-listing-footer-2 1" src="https://github.com/mayank4kathuria/KicksStore/assets/16969558/86196b64-343b-49a9-8b57-a84bcf8b4c19">
 
-4) MWeb
-<img width="530" alt="landing-page-mobile" src="https://github.com/mayank4kathuria/KicksStore/assets/16969558/b0d1bfcd-6bb8-40b2-b233-fb00ef233ec1">
 
-5) Categories
-<img width="1079" alt="product-listing-2 1" src="https://github.com/mayank4kathuria/KicksStore/assets/16969558/84359367-eac1-45a8-9a19-ae6f680c1750">
+4) Multi Device support
+![flat-devices-mockup(1)](https://github.com/user-attachments/assets/1698531c-1513-4ff9-b90c-837726d98346)
+
+
+
+5) Tablet View
+![smartmockups_m4rdcsx9](https://github.com/user-attachments/assets/af5a08ae-61e9-4d43-95b8-d38aef163b66)
+
+
 
 ## How to Deploy it
 First, run the development server:
