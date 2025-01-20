@@ -6,8 +6,8 @@ import { NEW_ARRIVALS, SHOES_LISTINGS } from '@/Constants/shoesData';
 export default function Home() {
 
   return (
-    <main className=" min-h-screen flex bg-gray-200 flex-col justify-between">
-      {/* Mweb */}
+    <main className=" min-h-screen flex bg-white flex-col justify-between">
+      {/* ----------------------------Mweb---------------------------- */}
       {/* Header */}
       <div className="bg-black block lg:hidden flex items-center" >
         <div className="py-4 px-6" >
@@ -173,18 +173,18 @@ export default function Home() {
 
       </div>
 
-      {/* Dweb */}
+      {/*----------------------------Dweb----------------------------*/}
       {/* Header */}
-      <div className="hidden lg:flex w-full p-8 bg-black flex items-center justify-between">
+      <div className="hidden lg:flex w-full py-4 px-8 bg-white flex items-center justify-between border-slate-300 border-b ">
         <div className="flex items-center" >
-          <div className="flex flex-col items-center uppercase mr-8 py-2 px-6 border-4 font-extrabold tracking-wide	" >
+          <div className="flex flex-col items-center uppercase mr-8 px-4 border-4 border-black text-sm text-black font-extrabold tracking-wide	" >
             {/* Logo */}
             <p>The Kicks</p>
             <p>Store</p>
           </div>
-          <div className="flex items-center text-gray-100 uppercase font-medium " >
+          <div className="flex items-center text-black uppercase font-semibold " >
             {/* Menu Items */}
-            <div className='group/menuList relative mx-2 p-4 text-sm hover:z-10' >
+            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10' >
               <span className="cursor-pointer" >Collection</span>
               <div className="w-56 mt-4 absolute invisible group-hover/menuList:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
                 <ul className="capitalize" >
@@ -195,7 +195,7 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className='group/menuList relative mx-2 p-4 text-sm hover:z-10' >
+            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10' >
               <span className="cursor-pointer" >Mens</span>
               <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
                 <ul className="capitalize" >
@@ -206,7 +206,7 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className='group/menuList relative mx-2 p-4 text-sm hover:z-10' >
+            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10' >
               <span className="cursor-pointer" >Womens</span>
               <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
                 <ul className="capitalize" >
@@ -217,7 +217,7 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className='group/menuList relative mx-2 p-4 text-sm hover:z-10' >
+            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10' >
               <span className="cursor-pointer" >Kids</span>
               <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
                 <ul className="capitalize" >
@@ -228,7 +228,7 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className='group/menuList relative mx-2 p-4 text-sm hover:z-10' >
+            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10' >
               <span className="cursor-pointer" >News</span>
               <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
                 <ul className="capitalize" >
@@ -239,15 +239,15 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex items-center text-gray-300 uppercase font-light" >
+        <div className="flex items-center text-black uppercase font-semibold" >
           {/* Cart & Accounts */}
-          <div className='group relative mx-2 p-4 text-sm hover:z-10' >
+          <div className='group relative mx-2 p-4 left-6 text-sm hover:z-10' >
             <span className="cursor-pointer text-sm font-white mx-2 p-4" >Cart</span>
             <div className="w-60 min-h-80 mt-4 absolute invisible flex items-center justify-center group-hover:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
               <p className="font-medium" >No Item Added to cart</p>
             </div>
           </div>
-          <div className='group relative mx-2 p-4 text-sm hover:z-10' >
+          <div className='group relative mx-2 p-4 left-6 text-sm hover:z-10' >
             <span className="cursor-pointer text-sm font-white mx-2 p-4" >My Account</span>
           </div>
         </div>
@@ -256,30 +256,58 @@ export default function Home() {
       {/* Content */}
       <div className="hidden lg:block p-8" >
 
-        <div className="flex bg-neutral-100 p-4" >
+        <div className="flex flex-col bg-white p-4" >
 
           {/* Landing Section / Hero Section */}
-          <div className="flex-[2_2_0] flex flex-col items-center relative p-6" >
+          <div className="flex flex-col relative px-6 py-28 overflow-clip bg-neutral-100" >
             {/* Main SHoe */}
-            <div className="text-black absolute " >
-              <p className="text-8xl font-bold pt-20">
-                {NEW_ARRIVALS[0]?.name}
+            <div className="flex z-10 w-full text-black absolute" >
+              <div className="w-full flex flex-col text-9xl font-bold">
+                {/* {NEW_ARRIVALS[0]?.name} */}
+                <p className="text-9xl font-semibold" >Nike</p>
+                <p className="flex justify-evenly text-[20.0rem] text-center font-bold pt-20 opacity-60" >
+                  <span>
+                    Air
+                  </span>
+                  <span>
+                    Max
+                  </span>
+                </p>
+                <p className="text-9xl font-semibold pt-20 self-end mr-20" >Excess</p>
+              </div>
+              {/* <p className="text-gray-500 text-lg font-bold" >{NEW_ARRIVALS[0]?.colorOptions}</p> */}
+            </div>
+            {/* <div className="z-10 w-1/5 text-black absolute bottom-0 right-0 -translate-x-20" >
+              <p className="text-6xl font-semibold pt-20">
+                Bolder
+              </p>
+              <p className="text-6xl font-semibold pt-20">
+                Extra Soft Pad
               </p>
               <p className="text-gray-500 text-lg font-bold" >{NEW_ARRIVALS[0]?.colorOptions}</p>
-            </div>
-            <div className="max-h-100" >
+            </div> */}
+            <div className="flex justify-center max-h-100 overflow-clip -rotate-12 -translate-y-24" >
               <Image
+                className="scale-[1.75] "
                 height={400}
                 width={700}
+                quality={100}
                 src={NEW_ARRIVALS[0]?.imageLink}
                 alt={NEW_ARRIVALS[0]?.name}
               />
             </div>
           </div>
 
-          <div className="flex-1 flex flex-col px-4 border-l-2 border-gray-200">
+          <div className="flex flex-col p-4 border-l-2 border-gray-200">
             {/* other collections */}
-            <p className="text-md font-bold text-gray-400 uppercase mb-4" >New Arrivals</p>
+            <div className="flex items-center" >
+              <div className="px-8 py-4 bg-teal-200 rounded-xl flex" >
+                <p className="text-md font-bold text-black uppercase" >New Arrivals</p>
+              </div>
+              <div className="px-8 py-4 bg-teal-200 rounded-xl flex ml-8" >
+                <p className="text-md font-bold text-black uppercase" >What's New</p>
+              </div>
+            </div>
 
             <div className="h-full max-w-96 flex flex-col justify-between" >
               <div className="flex p-4 shadow-xl" >
