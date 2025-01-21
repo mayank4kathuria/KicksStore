@@ -256,146 +256,54 @@ export default function Home() {
       {/* Content */}
       <div className="hidden lg:block p-8" >
 
-        <div className="flex flex-col bg-white p-4" >
-
-          {/* Landing Section / Hero Section */}
-          <div className="flex flex-col relative px-6 py-28 overflow-clip bg-neutral-100" >
-            {/* Main SHoe */}
-            <div className="flex z-10 w-full text-black absolute" >
-              <div className="w-full flex flex-col text-9xl font-bold">
-                {/* {NEW_ARRIVALS[0]?.name} */}
-                <p className="text-9xl font-semibold" >Nike</p>
-                <p className="flex justify-evenly text-[20.0rem] text-center font-bold pt-20 opacity-60" >
-                  <span>
-                    Air
-                  </span>
-                  <span>
-                    Max
-                  </span>
-                </p>
-                <p className="text-9xl font-semibold pt-20 self-end mr-20" >Excess</p>
-              </div>
-              {/* <p className="text-gray-500 text-lg font-bold" >{NEW_ARRIVALS[0]?.colorOptions}</p> */}
-            </div>
-            {/* <div className="z-10 w-1/5 text-black absolute bottom-0 right-0 -translate-x-20" >
-              <p className="text-6xl font-semibold pt-20">
-                Bolder
+        {/* Landing Section / Hero Section */}
+        <section className="max-h-screen flex flex-col overflow-clip bg-white bg-hero-img bg-cover bg-center" >
+          {/* Main SHoe */}
+          <div className="flex z-10 w-full p-8 text-white" >
+            <div className="w-full flex flex-col text-9xl font-bold">
+              <p className="text-9xl font-semibold" >Nike</p>
+              <p className="flex justify-evenly text-[20.0rem] text-center font-bold pt-6 opacity-60" >
+                <span>
+                  Air
+                </span>
+                <span>
+                  Max
+                </span>
               </p>
-              <p className="text-6xl font-semibold pt-20">
-                Extra Soft Pad
-              </p>
-              <p className="text-gray-500 text-lg font-bold" >{NEW_ARRIVALS[0]?.colorOptions}</p>
-            </div> */}
-            <div className="flex justify-center max-h-100 overflow-clip -rotate-12 -translate-y-24" >
-              <Image
-                className="scale-[1.75] "
-                height={400}
-                width={700}
-                quality={100}
-                src={NEW_ARRIVALS[0]?.imageLink}
-                alt={NEW_ARRIVALS[0]?.name}
-              />
+              <p className="text-9xl font-semibold pt-6 self-end" >Collection</p>
             </div>
           </div>
 
-          <div className="flex flex-col p-4 border-l-2 border-gray-200">
-            {/* other collections */}
-            <div className="flex items-center" >
-              <div className="px-8 py-4 bg-teal-200 rounded-xl flex" >
-                <p className="text-md font-bold text-black uppercase" >New Arrivals</p>
-              </div>
-              <div className="px-8 py-4 bg-teal-200 rounded-xl flex ml-8" >
-                <p className="text-md font-bold text-black uppercase" >What's New</p>
-              </div>
-            </div>
-
-            <div className="h-full max-w-96 flex flex-col justify-between" >
-              <div className="flex p-4 shadow-xl" >
-                <div className="flex-1" >
-                  <p className="text-black text-xl font-bold">
-                    {NEW_ARRIVALS[1]?.name}
-                  </p>
-                  <p className="flex flex-col mt-4">
-                    <span className="text-sm text-gray-400">From</span>
-                    <span className="text-lg font-medium text-gray-400">
-                      {NEW_ARRIVALS[1]?.price}
-                    </span>
-                  </p>
-                </div>
-                <div className="flex-1 overflow-clip " >
-                  <div className="w-full relative left-6" >
-                    <Image
-                      height={200}
-                      width={200}
-                      src={NEW_ARRIVALS[1]?.imageLink}
-                      alt={NEW_ARRIVALS[1]?.name}
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex p-4 mt-4 shadow-xl" >
-                <div className="flex-1" >
-                  <p className="text-black text-xl font-bold">
-                    {NEW_ARRIVALS[2]?.name}
-                  </p>
-                  <p className="flex flex-col mt-4">
-                    <span className="text-sm text-gray-400">From</span>
-                    <span className="text-lg font-medium text-gray-400">
-                      {NEW_ARRIVALS[2]?.price}
-                    </span>
-                  </p>
-                </div>
-                <div className="flex-1 overflow-clip " >
-                  <div className="w-full relative left-6" >
-                    <Image
-                      height={200}
-                      width={200}
-                      src={NEW_ARRIVALS[2]?.imageLink}
-                      alt={NEW_ARRIVALS[2]?.name}
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex p-4 mt-4 shadow-xl" >
-                <div className="flex-1" >
-                  <p className="text-black text-xl font-bold">
-                    {NEW_ARRIVALS[3]?.name}
-                  </p>
-                  <p className="flex flex-col mt-4">
-                    <span className="text-sm text-gray-400">From</span>
-                    <span className="text-lg font-medium text-gray-400">
-                      {NEW_ARRIVALS[3]?.price}
-                    </span>
-                  </p>
-                </div>
-                <div className="flex-1 overflow-clip " >
-                  <div className="w-full relative left-6" >
-                    <Image
-                      height={200}
-                      width={200}
-                      src={NEW_ARRIVALS[3]?.imageLink}
-                      alt={NEW_ARRIVALS[3]?.name}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
+          {/* <div className="flex justify-center overflow-clip translate-y-10 -rotatee-12 scale-1 pb-10 opacity-100 " >
+            <Image
+              className="w-full"
+              height={980}
+              width={1080}
+              quality={100}
+              src={'/men-s-shoes-clothing-accessories.jpg'}
+              alt={NEW_ARRIVALS[0]?.name}
+            />
+          </div> */}
+        </section>
 
         <div className="py-8" >
-          {/* Other shoes with listing */}
-          <p className="text-md font-bold text-gray-400 uppercase mb-4" >Popular</p>
+          <div className="flex" >
+            <div className="min-w-44 flex self-center px-6 py-2 bg-indigo-950 border-4 border-indigo-900 rounded-full hover:bg-indigo-900" >
+              <p className="text-sm text-white uppercase" >New Arrivals</p>
+            </div>
+            <div className="min-w-44 flex self-end px-6 py-2 ml-8 bg-yellow-950 border-4 border-yellow-900 rounded-full hover:bg-yellow-900" >
+              <p className="text-sm text-white uppercase" >What's Trending</p>
+            </div>
+          </div>
 
-          <div className="w-full flex flex-wrap bg-gray-100" >
+          {/* Other shoes with listing */}
+          {/* <p className="text-md font-bold text-gray-400 uppercase mb-4" >Popular</p> */}
+
+          <div className="w-full flex flex-wrap mt-8 py-8" >
 
             {SHOES_LISTINGS.map((shoe, index) =>
-              <div key={`${index}-${shoe?.name}`} className="w-1/4 flex flex-col items-center p-2 shadow-slate-200 shadow-sm hover:shadow-lg cursor-pointer" >
-                <div>
+              <div key={`${index}-${shoe?.name}`} className="w-80 flex flex-col p-4 m-6 shadow-slate-200 rounded-xl shadow-sm hover:shadow-lg cursor-pointer" >
+                <div className="w-full flex justify-center bg-neutral-100" >
                   <Image
                     height={250}
                     width={250}
@@ -403,13 +311,18 @@ export default function Home() {
                     alt={shoe?.name || ''}
                   />
                 </div>
-                <div className="flex-1 flex flex-col items-center" >
-                  <p className="xtext-lg font-bold text-gray-600">
+                <div className="flex-1 flex flex-col mt-2" >
+                  <p className="text-md font-bold text-black">
                     {shoe?.name}
                   </p>
-                  <p className="flex flex-col">
-                    <span className="text-sm font-bold text-gray-600">
+                  <p className="flex flex-col my-2">
+                    <span className="text-sm text-black">
                       {shoe?.price}
+                    </span>
+                  </p>
+                  <p className="flex flex-col">
+                    <span className="text-sm text-black">
+                      Stars
                     </span>
                   </p>
                 </div>
