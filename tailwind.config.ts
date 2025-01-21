@@ -12,6 +12,30 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          "hero-img": "url('/men-s-shoes-clothing-accessories.jpg')"
+
+      },
+      animationFillMode: {
+        none: "none",
+        forwards: "forwards",
+        backwards: "backwards",
+        both: "both",
+      },
+      animation : {
+        'scale-rotate': 'scaleAndRotate 2s ease-in-out 1',
+      },
+      keyframes: {
+        scaleAndRotate : {
+          '0%': {
+            rotate: '0deg',
+            scale: '0.75'
+          },
+          '100%': {
+            rotate: '-20deg',
+            scale: '1.25',
+            'animation-fill-mode': 'forwards',
+          },
+        }
       },
     },
   },
