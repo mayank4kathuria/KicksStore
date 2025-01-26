@@ -175,91 +175,91 @@ export default function Home() {
 
       {/*----------------------------Dweb----------------------------*/}
       {/* Header */}
-      <div className="hidden lg:flex w-full py-4 px-8 bg-white flex items-center justify-between border-slate-300 border-b ">
+      <div className="hidden z-10 lg:flex w-full sticky top-0 py-4 px-8 bg-white flex items-center justify-between">
         <div className="flex items-center" >
           <div className="flex flex-col items-center uppercase mr-8 px-4 border-4 border-black text-sm text-black font-extrabold tracking-wide	" >
             {/* Logo */}
             <p>The Kicks</p>
             <p>Store</p>
           </div>
-          <div className="flex items-center text-black uppercase font-semibold " >
+          <div className="flex items-center text-black uppercase" >
             {/* Menu Items */}
-            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10' >
+            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl hover:bg-neutral-100 rounded-2xl' >
               <span className="cursor-pointer" >Collection</span>
-              <div className="w-56 mt-4 absolute invisible group-hover/menuList:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
+              <div className="w-56 mt-4 absolute invisible group-hover/menuList:visible bg-neutral-100 text-black shadow-lg border-0 rounded-lg" >
                 <ul className="capitalize" >
-                  <li className="hover:bg-slate-200 mt-2 p-4 cursor-pointer" >New Arrivals</li>
-                  <li className="hover:bg-slate-200 p-4 cursor-pointer" >Popular</li>
-                  <li className="hover:bg-slate-200 p-4 cursor-pointer" >Season end discounts</li>
-                  <li className="hover:bg-slate-200 mb-2 p-4 cursor-pointer" >Trendy Fashion</li>
+                  <li className="hover:bg-neutral-100 mt-2 p-4 cursor-pointer" >New Arrivals</li>
+                  <li className="hover:bg-neutral-100 p-4 cursor-pointer" >Popular</li>
+                  <li className="hover:bg-neutral-100 p-4 cursor-pointer" >Season end discounts</li>
+                  <li className="hover:bg-neutral-100 mb-2 p-4 cursor-pointer" >Trendy Fashion</li>
                 </ul>
               </div>
             </div>
-            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10' >
+            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl' >
               <span className="cursor-pointer" >Mens</span>
-              <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
+              <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-neutral-100 text-black shadow-lg border-0 rounded-lg" >
                 <ul className="capitalize" >
-                  <li className="hover:bg-slate-200 mt-2 p-4 cursor-pointer" >Sports Shoes</li>
-                  <li className="hover:bg-slate-200 p-4 cursor-pointer" >Running Shoes</li>
-                  <li className="hover:bg-slate-200 p-4 cursor-pointer" >Everyday Shoes</li>
-                  <li className="hover:bg-slate-200 mb-2 p-4 cursor-pointer" >casual Shoes</li>
+                  <li className="hover:bg-neutral-100 mt-2 p-4 cursor-pointer" >Sports Shoes</li>
+                  <li className="hover:bg-neutral-100 p-4 cursor-pointer" >Running Shoes</li>
+                  <li className="hover:bg-neutral-100 p-4 cursor-pointer" >Everyday Shoes</li>
+                  <li className="hover:bg-neutral-100 mb-2 p-4 cursor-pointer" >casual Shoes</li>
                 </ul>
               </div>
             </div>
-            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10' >
+            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl' >
               <span className="cursor-pointer" >Womens</span>
-              <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
+              <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-neutral-100 text-black shadow-lg border-0 rounded-lg" >
                 <ul className="capitalize" >
-                  <li className="hover:bg-slate-200 mt-2 p-4 cursor-pointer" >Sports Shoes</li>
-                  <li className="hover:bg-slate-200 p-4 cursor-pointer" >Running Shoes</li>
-                  <li className="hover:bg-slate-200 p-4 cursor-pointer" >Everyday Shoes</li>
-                  <li className="hover:bg-slate-200 mb-2 p-4 cursor-pointer" >casual Shoes</li>
+                  <li className="hover:bg-neutral-100 mt-2 p-4 cursor-pointer" >Sports Shoes</li>
+                  <li className="hover:bg-neutral-100 p-4 cursor-pointer" >Running Shoes</li>
+                  <li className="hover:bg-neutral-100 p-4 cursor-pointer" >Everyday Shoes</li>
+                  <li className="hover:bg-neutral-100 mb-2 p-4 cursor-pointer" >casual Shoes</li>
                 </ul>
               </div>
             </div>
-            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10' >
+            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl' >
               <span className="cursor-pointer" >Kids</span>
-              <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
+              <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-neutral-100 text-black shadow-lg border-0 rounded-lg" >
                 <ul className="capitalize" >
-                  <li className="hover:bg-slate-200 mt-2 p-4 cursor-pointer" >Sports Shoes</li>
-                  <li className="hover:bg-slate-200 p-4 cursor-pointer" >Running Shoes</li>
-                  <li className="hover:bg-slate-200 p-4 cursor-pointer" >Everyday Shoes</li>
-                  <li className="hover:bg-slate-200 mb-2 p-4 cursor-pointer" >casual Shoes</li>
+                  <li className="hover:bg-neutral-100 mt-2 p-4 cursor-pointer" >Sports Shoes</li>
+                  <li className="hover:bg-neutral-100 p-4 cursor-pointer" >Running Shoes</li>
+                  <li className="hover:bg-neutral-100 p-4 cursor-pointer" >Everyday Shoes</li>
+                  <li className="hover:bg-neutral-100 mb-2 p-4 cursor-pointer" >casual Shoes</li>
                 </ul>
               </div>
             </div>
-            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10' >
+            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl' >
               <span className="cursor-pointer" >News</span>
-              <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
+              <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-neutral-100 text-black shadow-lg border-0 rounded-lg" >
                 <ul className="capitalize" >
-                  <li className="hover:bg-slate-200 mt-2 p-4 cursor-pointer" >Latest News</li>
-                  <li className="hover:bg-slate-200 mb-2 p-4 cursor-pointer" >Coverage in Press</li>
+                  <li className="hover:bg-neutral-100 mt-2 p-4 cursor-pointer" >Latest News</li>
+                  <li className="hover:bg-neutral-100 mb-2 p-4 cursor-pointer" >Coverage in Press</li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex items-center text-black uppercase font-semibold" >
+        <div className="flex items-center text-black uppercase" >
           {/* Cart & Accounts */}
-          <div className='group relative mx-2 p-4 left-6 text-sm hover:z-10' >
+          <div className='group relative mx-2 p-2 px-4 left-6 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl' >
             <span className="cursor-pointer text-sm font-white mx-2 p-4" >Cart</span>
-            <div className="w-60 min-h-80 mt-4 absolute invisible flex items-center justify-center group-hover:visible bg-slate-100 text-black shadow-lg border-0 rounded-lg" >
-              <p className="font-medium" >No Item Added to cart</p>
+            <div className="w-60 min-h-80 mt-4 absolute invisible flex items-center justify-center group-hover:visible bg-neutral-100 text-black shadow-lg border-0 rounded-lg" >
+              <p className="" >No Item Added to cart</p>
             </div>
           </div>
-          <div className='group relative mx-2 p-4 left-6 text-sm hover:z-10' >
+          <div className='group relative mx-2 p-2 px-4 left-6 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl' >
             <span className="cursor-pointer text-sm font-white mx-2 p-4" >My Account</span>
           </div>
         </div>
       </div>
 
       {/* Content */}
-      <div className="hidden lg:block p-8" >
+      <div className="hidden lg:block py-8" >
 
         {/* Landing Section / Hero Section */}
         <section className="max-h-screen flex flex-col overflow-clip bg-white bg-hero-img bg-cover bg-center" >
           {/* Main SHoe */}
-          <div className="flex z-10 w-full p-8 text-white" >
+          <div className="flex w-full p-8 text-white" >
             <div className="w-full flex flex-col text-9xl font-bold">
               <p className="text-9xl font-semibold" >Nike</p>
               <p className="flex justify-evenly text-[20.0rem] text-center font-bold pt-6 opacity-60" >
@@ -327,7 +327,7 @@ export default function Home() {
             <div className="absolute bottom-8 p-8">
               <p className="uppercase text-2xl mb-4" >Famous Muiches</p>
               <div className="flex container" >
-                <p className="p-2 border border-white rounded-lg cursor-pointer hover:bg-white hover:text-black" >
+                <p className="p-4 border border-white rounded-lg cursor-pointer hover:bg-white hover:text-black" >
                   SHOP NOW
                 </p>
               </div>
@@ -337,7 +337,7 @@ export default function Home() {
             <div className="absolute bottom-8 p-8">
               <p className="uppercase text-2xl mb-4" >Special Collection</p>
               <div className="flex container" >
-                <p className="p-2 border border-white rounded-lg cursor-pointer hover:bg-white hover:text-black" >
+                <p className="p-4 border border-white rounded-lg cursor-pointer hover:bg-white hover:text-black" >
                   SHOP NOW
                 </p>
               </div>
@@ -350,12 +350,12 @@ export default function Home() {
           <div className="flex justify-between items-center text-black ml-2" >
             <p className="uppercase text-4xl text-white font-light drop-shadow-[-2.5px_0.5px_1.0px_rgba(0,0,0,1)]" >Best <span className="text-black drop-shadow-none">Sell</span>ing</p>
             <div className="flex items-center">
-              <p className="py-2 px-4 mr-2 cursor-pointer hover:bg-neutral-400">PREV</p>
-              <p className="py-2 px-4 mr-2 cursor-pointer hover:bg-neutral-400">NEXT</p>
+              <p className="py-2 px-8 mr-2 cursor-pointer underline underline-offset-8 rounded-2xl hover:bg-neutral-100">PREV</p>
+              <p className="py-2 px-8 mr-2 cursor-pointer underline underline-offset-8 rounded-2xl hover:bg-neutral-100">NEXT</p>
             </div>
           </div>
 
-          <div className="w-full flex my-8 py-8 overflow-x-auto" >
+          <div className="w-full flex my-16 py-8 overflow-x-auto" >
 
             {SHOES_LISTINGS.slice(0, 11).map((shoe, index) =>
               <div key={`${index}-${shoe?.name}`} className="min-w-80 flex flex-col mr-16 shadow-slate-200 shadow-sm hover:shadow-lg cursor-pointer" >
@@ -385,23 +385,96 @@ export default function Home() {
               </div>)}
 
           </div>
-
+          <div className="w-full flex justify-center items-center text-white" >
+            <p className="p-4 rounded-lg cursor-pointer bg-black hover:bg-neutral-800" >
+              SHOP NOW
+            </p>
+          </div>
         </section>
 
-        <section className="py-8" >
+        <section className="py-8 mb-8" >
           {/* Picture of categories available */}
-          <div className="text-black bg-red-200" >Will be available soon</div>
+          <div className="text-black bg-red-200" >
+            <div className="flex p-2 mb-2 bg-teal-200" >
+              <div className="min-h-96 flex flex-1 bg-slate-500 justify-center" >
+                <div className="w-full flex justify-center items-end text-white mb-16" >
+                  <p className="p-4 rounded-lg cursor-pointer bg-black hover:bg-neutral-800" >
+                    KIDS
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="flex p-2 mb-2 bg-purple-200" >
+              <div className="min-h-96 flex justify-center flex-[3_0_0] bg-slate-500" >
+                <div className="w-full flex justify-center items-end text-white mb-16" >
+                  <p className="p-4 rounded-lg cursor-pointer bg-black hover:bg-neutral-800" >
+                    WOMAN
+                  </p>
+                </div>
+              </div>
+              <div className="min-h-96 flex justify-center flex-[2_0_0] bg-green-500 ml-4" >
+                <div className="w-full flex justify-center items-end text-white mb-16" >
+                  <p className="p-4 rounded-lg cursor-pointer bg-black hover:bg-neutral-800" >
+                    SNEAKERS
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="flex p-2 mb-2 bg-amber-200" >
+              <div className="min-h-96 flex justify-center flex-[2_0_0] bg-slate-500" >
+                <div className="w-full flex justify-center items-end text-white mb-16" >
+                  <p className="p-4 rounded-lg cursor-pointer bg-black hover:bg-neutral-800" >
+                    BOOTS
+                  </p>
+                </div>
+              </div>
+              <div className="min-h-96 flex justify-center flex-[3_0_0] bg-green-500 ml-4" >
+                <div className="w-full flex justify-center items-end text-white mb-16" >
+                  <p className="p-4 rounded-lg cursor-pointer bg-black hover:bg-neutral-800" >
+                    MEN
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <section>
           {/* Picture of service promise */}
+          <div className="p-8 flex justify-evenly">
+              <div className="min-h-60 flex flex-col justify-center p-4" >
+                <div className="flex justify-center mb-8 bg-red-200">ICON</div>
+                <div className="">
+                  <p className="text-xl text-black uppercase">FREE AND FAST DELIVERY</p>
+                  <p className="text-sm text-black text-center">Free delivery for all order above 500</p>
+                </div>
+              </div>
+              <div className="min-h-60 flex flex-col justify-center p-4" >
+                <div className="flex justify-center mb-8 bg-red-200">ICON</div>
+                <div className="">
+                  <p className="text-xl text-black uppercase">24/7 CUSTOMER SERVICE</p>
+                  <p className="text-sm text-black text-center">Friendly 24/7 customer support</p>
+                </div>
+              </div>
+              <div className="min-h-60 flex flex-col justify-center p-4" >
+                <div className="flex justify-center mb-8 bg-red-200">ICON</div>
+                <div className="">
+                  <p className="text-xl text-black uppercase">MONEY BACK GAURANTEE</p>
+                  <p className="text-sm text-black text-center">We return money within 30 days</p>
+                </div>
+              </div>
+          </div>
         </section>
 
       </div>
 
       {/* Footer */}
-      <div className="w-full p-4 bg-stone-800 flex justify-center items-center`">
-        <p>Made By Mayank Kathuria</p>
+      <div className="w-full p-4 bg-stone-800">
+        <div className="flex bg-teal-200 p-2 mb-4" >
+          <div className="flex flex-[3_0_0] text-black"> company info</div>
+          <div className="flex flex-1 justify-end text-black"> some links</div>
+        </div>
+        <p className="p-4 text-center">Made By Mayank Kathuria</p>
       </div>
     </main>
   );
