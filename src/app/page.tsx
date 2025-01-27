@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { NEW_ARRIVALS, SHOES_LISTINGS } from '@/Constants/shoesData';
+import DeliveryIcon from '@/Icons/deliveryIcon';
+import CustomerServiceIcon from '@/Icons/customerServiceIcon';
+import SafeIcon from '@/Icons/safeIcon';
 
 export default function Home() {
 
@@ -286,9 +289,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Other shoes with listing */}
-          {/* <p className="text-md font-bold text-gray-400 uppercase mb-4" >Popular</p> */}
-
           <div className="w-full flex flex-wrap pb-16 border-0 border-b border-slate-400" >
 
             {SHOES_LISTINGS.slice(0, 11).map((shoe, index) =>
@@ -323,7 +323,7 @@ export default function Home() {
 
         <section className="py-36 mb-16 flex justify-center items-center" >
           {/* Picture of 2 shoes */}
-          <div className="h-[600px] w-[400px] relative bg-yellow-300 mr-8 -translate-y-20" >
+          <div className="h-[600px] w-[400px] relative mr-8 -translate-y-20 bg-woman-shoes-img bg-center bg-no-repeat bg-cover" >
             <div className="absolute bottom-8 p-8">
               <p className="uppercase text-2xl mb-4" >Famous Muiches</p>
               <div className="flex container" >
@@ -333,7 +333,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="h-[600px] w-[400px] relative bg-sky-300 mr-8 translate-y-20" >
+          <div className="h-[600px] w-[400px] relative mr-8 translate-y-20 bg-nike-dunk-img bg-center bg-no-repeat bg-cover" >
             <div className="absolute bottom-8 p-8">
               <p className="uppercase text-2xl mb-4" >Special Collection</p>
               <div className="flex container" >
@@ -348,7 +348,8 @@ export default function Home() {
         <section className="mb-8 p-4" >
           {/* Best Selling collection */}
           <div className="flex justify-between items-center text-black ml-2" >
-            <p className="uppercase text-4xl text-white font-light drop-shadow-[-2.5px_0.5px_1.0px_rgba(0,0,0,1)]" >Best <span className="text-black drop-shadow-none">Sell</span>ing</p>
+            {/* <p className="uppercase text-4xl text-white font-light drop-shadow-[-2.5px_0.5px_1.0px_rgba(0,0,0,1)]" >Best <span className="text-black drop-shadow-none">Sell</span>ing</p> */}
+            <p className="px-4 py-2 bg-black uppercase text-4xl text-white font-semibold rounded-lg" >Best Selling</p>
             <div className="flex items-center">
               <p className="py-2 px-8 mr-2 cursor-pointer underline underline-offset-8 rounded-2xl hover:bg-neutral-100">PREV</p>
               <p className="py-2 px-8 mr-2 cursor-pointer underline underline-offset-8 rounded-2xl hover:bg-neutral-100">NEXT</p>
@@ -394,9 +395,9 @@ export default function Home() {
 
         <section className="py-8 mb-8" >
           {/* Picture of categories available */}
-          <div className="text-black bg-red-200" >
-            <div className="flex p-2 mb-2 bg-teal-200" >
-              <div className="min-h-96 flex flex-1 bg-slate-500 justify-center" >
+          <div className="text-black" >
+            <div className="flex p-2 mb-2" >
+              <div className="min-h-[500px] flex flex-1 justify-center bg-nike-kids-img bg-center bg-no-repeat bg-container" >
                 <div className="w-full flex justify-center items-end text-white mb-16" >
                   <p className="p-4 rounded-lg cursor-pointer bg-black hover:bg-neutral-800" >
                     KIDS
@@ -404,34 +405,34 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="flex p-2 mb-2 bg-purple-200" >
-              <div className="min-h-96 flex justify-center flex-[3_0_0] bg-slate-500" >
+            <div className="flex p-2 mb-2" >
+              <div className="min-h-[500px] flex justify-center flex-[3_0_0] bg-nike-running-img bg-bottom bg-no-repeat bg-cover" >
+                <div className="w-full flex justify-center items-end text-white mb-16" >
+                  <p className="p-4 rounded-lg cursor-pointer bg-black hover:bg-neutral-800" >
+                    RUNNING
+                  </p>
+                </div>
+              </div>
+              <div className="min-h-[500px] flex justify-center flex-[2_0_0] ml-4 bg-nike-woman-img bg-bottom bg-no-repeat bg-cover" >
                 <div className="w-full flex justify-center items-end text-white mb-16" >
                   <p className="p-4 rounded-lg cursor-pointer bg-black hover:bg-neutral-800" >
                     WOMAN
                   </p>
                 </div>
               </div>
-              <div className="min-h-96 flex justify-center flex-[2_0_0] bg-green-500 ml-4" >
-                <div className="w-full flex justify-center items-end text-white mb-16" >
-                  <p className="p-4 rounded-lg cursor-pointer bg-black hover:bg-neutral-800" >
-                    SNEAKERS
-                  </p>
-                </div>
-              </div>
             </div>
-            <div className="flex p-2 mb-2 bg-amber-200" >
-              <div className="min-h-96 flex justify-center flex-[2_0_0] bg-slate-500" >
+            <div className="flex p-2 mb-2" >
+              <div className="min-h-[500px] flex justify-center flex-[2_0_0] bg-nike-men-img bg-center bg-no-repeat bg-cover" >
                 <div className="w-full flex justify-center items-end text-white mb-16" >
                   <p className="p-4 rounded-lg cursor-pointer bg-black hover:bg-neutral-800" >
-                    BOOTS
+                    MAN
                   </p>
                 </div>
               </div>
-              <div className="min-h-96 flex justify-center flex-[3_0_0] bg-green-500 ml-4" >
+              <div className="min-h-[500px] flex justify-center flex-[3_0_0] ml-4 bg-nike-football-img bg-bottom bg-no-repeat bg-cover" >
                 <div className="w-full flex justify-center items-end text-white mb-16" >
                   <p className="p-4 rounded-lg cursor-pointer bg-black hover:bg-neutral-800" >
-                    MEN
+                    FOOTBALL
                   </p>
                 </div>
               </div>
@@ -442,27 +443,33 @@ export default function Home() {
         <section>
           {/* Picture of service promise */}
           <div className="p-8 flex justify-evenly">
-              <div className="min-h-60 flex flex-col justify-center p-4" >
-                <div className="flex justify-center mb-8 bg-red-200">ICON</div>
-                <div className="">
-                  <p className="text-xl text-black uppercase">FREE AND FAST DELIVERY</p>
-                  <p className="text-sm text-black text-center">Free delivery for all order above 500</p>
-                </div>
+            <div className="min-h-60 flex flex-col justify-center p-4" >
+              <div className="flex justify-center mb-8">
+                <DeliveryIcon width="60px" height="60px" />
               </div>
-              <div className="min-h-60 flex flex-col justify-center p-4" >
-                <div className="flex justify-center mb-8 bg-red-200">ICON</div>
-                <div className="">
-                  <p className="text-xl text-black uppercase">24/7 CUSTOMER SERVICE</p>
-                  <p className="text-sm text-black text-center">Friendly 24/7 customer support</p>
-                </div>
+              <div className="">
+                <p className="text-xl text-black uppercase">FREE AND FAST DELIVERY</p>
+                <p className="text-sm text-black text-center">Free delivery for all order above 500</p>
               </div>
-              <div className="min-h-60 flex flex-col justify-center p-4" >
-                <div className="flex justify-center mb-8 bg-red-200">ICON</div>
-                <div className="">
-                  <p className="text-xl text-black uppercase">MONEY BACK GAURANTEE</p>
-                  <p className="text-sm text-black text-center">We return money within 30 days</p>
-                </div>
+            </div>
+            <div className="min-h-60 flex flex-col justify-center p-4" >
+              <div className="flex justify-center mb-10">
+                <CustomerServiceIcon width="50px" height="50px" />
               </div>
+              <div className="">
+                <p className="text-xl text-black uppercase">24/7 CUSTOMER SERVICE</p>
+                <p className="text-sm text-black text-center">Friendly 24/7 customer support</p>
+              </div>
+            </div>
+            <div className="min-h-60 flex flex-col justify-center p-4" >
+              <div className="flex justify-center mb-8">
+                <SafeIcon width="60px" height="60px" />
+              </div>
+              <div className="">
+                <p className="text-xl text-black uppercase">MONEY BACK GAURANTEE</p>
+                <p className="text-sm text-black text-center">We return money within 30 days</p>
+              </div>
+            </div>
           </div>
         </section>
 
