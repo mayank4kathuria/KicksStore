@@ -5,6 +5,12 @@ import { NEW_ARRIVALS, SHOES_LISTINGS } from '@/Constants/shoesData';
 import DeliveryIcon from '@/Icons/deliveryIcon';
 import CustomerServiceIcon from '@/Icons/customerServiceIcon';
 import SafeIcon from '@/Icons/safeIcon';
+import FacebookIcon from '@/Icons/facebookIcon';
+import InstagramIcon from '@/Icons/instagramIcon';
+import LinkedinIcon from '@/Icons/linkedinIcon';
+import YoutubeIcon from '@/Icons/youtubeIcon';
+import BlogIcon from '@/Icons/blogIcon';
+
 
 export default function Home() {
 
@@ -477,11 +483,56 @@ export default function Home() {
 
       {/* Footer */}
       <div className="w-full p-4 bg-stone-800">
-        <div className="flex bg-teal-200 p-2 mb-4" >
-          <div className="flex flex-[3_0_0] text-black"> company info</div>
-          <div className="flex flex-1 justify-end text-black"> some links</div>
+        <div className="flex p-2 mb-4" >
+          <div className="flex flex-col flex-[2_0_0]">
+            <div className="flex">
+              <div className="flex flex-col items-center uppercase border-2 text-xs text-white font-extrabold tracking-wide py-1 px-4 mb-4" >
+                {/* Logo */}
+                <p>The Kicks</p>
+                <p>Store</p>
+              </div>
+            </div>
+            <div className="text-sm mb-4" >
+              <p>Address</p>
+              <p>Kicks store, central delhi, new delhi - 110000</p>
+            </div>
+            <div className="text-sm mb-4" >
+              <p>Contact</p>
+              <p>1800 1200 0000</p>
+              <p>sales@kicksstore.com</p>
+            </div>
+            <div className="flex">
+              <div className="flex justify-between items-center">
+                <Link className="mr-4 hover:bg-slate-400 border-xl p-2" href={'/'}><FacebookIcon color="#fff" height="20px" width="20px" /></Link>
+                <Link className="mr-4 hover:bg-slate-400 border-xl p-2" href={'/'}><InstagramIcon color="#fff" height="20px" width="20px" /></Link>
+                <Link className="mr-4 hover:bg-slate-400 border-xl fill-white p-2" href={'https://www.linkedin.com/in/dev-mayank-kathuria/'}><LinkedinIcon color="#fff" height="30px" width="30px" /></Link>
+                <Link className="mr-4 hover:bg-slate-400 border-xl p-2" href={'/'}><YoutubeIcon color="#fff" height="20px" width="20px" /></Link>
+                <Link className="mr-4 hover:bg-slate-400 border-xl p-2" href={'https://mayankkathuria.com/blog'}><BlogIcon color="#fff" height="20px" width="20px" /></Link>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-1 justify-between text-sm">
+            <div className="flex flex-col">
+              <Link href={'/'} className="mb-8" >{`Men's shoes`}</Link>
+              <Link href={'/'} className="mb-8" >{`Men's running shoes`}</Link>
+              <Link href={'/'} className="mb-8" >{`Men's basketball shoes`}</Link>
+              <Link href={'/'} className="mb-8" >{`Men's walking shoes`}</Link>
+            </div>
+            <div className="flex flex-col">
+              <Link href={'/'} className="mb-8" >{`Women's shoes`}</Link>
+              <Link href={'/'} className="mb-8" >{`Women's running shoes`}</Link>
+              <Link href={'/'} className="mb-8" >{`Women's basketball shoes`}</Link>
+              <Link href={'/'} className="mb-8" >{`Women's walking shoes`}</Link>
+            </div>
+            <div className="flex flex-col">
+              <Link href={'/'} className="mb-8" >{`Kids's shoes`}</Link>
+              <Link href={'/'} className="mb-8" >{`Kids's running shoes`}</Link>
+              <Link href={'/'} className="mb-8" >{`Kids's basketball shoes`}</Link>
+              <Link href={'/'} className="mb-8" >{`Kids's walking shoes`}</Link>
+            </div>
+          </div>
         </div>
-        <p className="p-4 text-center">Made By Mayank Kathuria</p>
+        <p className="p-6 text-center border-t border-white">Made By Mayank Kathuria</p>
       </div>
     </main>
   );
