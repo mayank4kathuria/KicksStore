@@ -12,8 +12,14 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-          "hero-img": "url('/men-s-shoes-clothing-accessories.jpg')"
-
+          "hero-img": "url('/men-s-shoes-clothing-accessories.jpg')",
+          "woman-shoes-img" : "url('/woman-shoes.png')",
+          "nike-men-img" : "url('/nike-men.jpg')",
+          "nike-kids-img" : "url('/nike-kids-shoes.jpg')",
+          "nike-woman-img" : "url('/nike-just-do-it-woman.jpg')",
+          "nike-running-img" : "url('/nike-just-do-it-running.jpg')",
+          "nike-football-img" : "url('/nike-just-do-it-football.jpg')",
+          "nike-dunk-img" : "url('/nike-just-do-it-dunk.png')",
       },
       animationFillMode: {
         none: "none",
