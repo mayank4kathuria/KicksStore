@@ -193,7 +193,7 @@ export default function Home() {
           </div>
           <div className="flex items-center text-black uppercase" >
             {/* Menu Items */}
-            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl hover:bg-neutral-100 rounded-2xl' >
+            <div className='group/menuList relative mx-2 py-4 px-4 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl hover:bg-neutral-100 rounded-2xl' >
               <span className="cursor-pointer" >Collection</span>
               <div className="w-56 mt-4 absolute invisible group-hover/menuList:visible bg-neutral-100 text-black shadow-lg border-0 rounded-lg" >
                 <ul className="capitalize" >
@@ -204,7 +204,7 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl' >
+            <div className='group/menuList relative mx-2 py-4 px-4 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl' >
               <span className="cursor-pointer" >Mens</span>
               <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-neutral-100 text-black shadow-lg border-0 rounded-lg" >
                 <ul className="capitalize" >
@@ -215,7 +215,7 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl' >
+            <div className='group/menuList relative mx-2 py-4 px-4 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl' >
               <span className="cursor-pointer" >Womens</span>
               <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-neutral-100 text-black shadow-lg border-0 rounded-lg" >
                 <ul className="capitalize" >
@@ -226,7 +226,7 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl' >
+            <div className='group/menuList relative mx-2 py-4 px-4 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl' >
               <span className="cursor-pointer" >Kids</span>
               <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-neutral-100 text-black shadow-lg border-0 rounded-lg" >
                 <ul className="capitalize" >
@@ -237,7 +237,7 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <div className='group/menuList relative mx-2 py-2 px-4 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl' >
+            <div className='group/menuList relative mx-2 py-4 px-4 text-sm hover:z-10 hover:bg-neutral-100 rounded-2xl' >
               <span className="cursor-pointer" >News</span>
               <div className="w-44 mt-4 absolute invisible group-hover/menuList:visible bg-neutral-100 text-black shadow-lg border-0 rounded-lg" >
                 <ul className="capitalize" >
