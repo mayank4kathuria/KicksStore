@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ({ height = '40px', width = '40px' }) {
+export default function SafeIcon ({ height = '40px', width = '40px' }) {
 	return (
 		<svg fill="#000000" height={height} width={width} version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
 			viewBox="0 0 193.291 193.291" xmlSpace="preserve">

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ({ height = '40px', width = '40px', color="#000000" }) {
+export default function YoutubeIcon ({ height = '40px', width = '40px', color="#000000" }) {
 	return (
 		<svg width={width} height={height} viewBox="0 -3 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 			

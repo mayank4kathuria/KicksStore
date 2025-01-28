@@ -291,7 +291,7 @@ export default function Home() {
               <p className="text-sm text-white uppercase" >New Arrivals</p>
             </div>
             <div className="min-w-44 flex self-end px-6 py-2 ml-8 bg-yellow-950 border-4 border-yellow-900 rounded-full hover:bg-yellow-900" >
-              <p className="text-sm text-white uppercase" >What's Trending</p>
+              <p className="text-sm text-white uppercase" >{`What's Trending`}</p>
             </div>
           </div>
 

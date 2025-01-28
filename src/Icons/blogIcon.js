@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ({ height = '40px', width = '40px', color="#000" }) {
+export default function BlogsIcon ({ height = '40px', width = '40px', color="#000" }) {
 	return (
 		<svg fill={color} width={width} height={width} viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
 
