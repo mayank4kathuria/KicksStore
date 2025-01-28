@@ -7,7 +7,7 @@ import CustomerServiceIcon from '@/Icons/customerServiceIcon';
 import SafeIcon from '@/Icons/safeIcon';
 import FacebookIcon from '@/Icons/facebookIcon';
 import InstagramIcon from '@/Icons/instagramIcon';
-import LinkedinIcon from '@/Icons/linkedinIcon';
+// import LinkedinIcon from '@/Icons/linkedInIcon';
 import YoutubeIcon from '@/Icons/youtubeIcon';
 import BlogIcon from '@/Icons/blogIcon';
 
@@ -505,7 +505,7 @@ export default function Home() {
               <div className="flex justify-between items-center">
                 <Link className="mr-4 hover:bg-slate-400 border-xl p-2" href={'/'}><FacebookIcon color="#fff" height="20px" width="20px" /></Link>
                 <Link className="mr-4 hover:bg-slate-400 border-xl p-2" href={'/'}><InstagramIcon color="#fff" height="20px" width="20px" /></Link>
-                <Link className="mr-4 hover:bg-slate-400 border-xl fill-white p-2" href={'https://www.linkedin.com/in/dev-mayank-kathuria/'}><LinkedinIcon color="#fff" height="30px" width="30px" /></Link>
+                {/* <Link className="mr-4 hover:bg-slate-400 border-xl fill-white p-2" href={'https://www.linkedin.com/in/dev-mayank-kathuria/'}><LinkedinIcon color="#fff" height="30px" width="30px" /></Link> */}
                 <Link className="mr-4 hover:bg-slate-400 border-xl p-2" href={'/'}><YoutubeIcon color="#fff" height="20px" width="20px" /></Link>
                 <Link className="mr-4 hover:bg-slate-400 border-xl p-2" href={'https://mayankkathuria.com/blog'}><BlogIcon color="#fff" height="20px" width="20px" /></Link>
               </div>
